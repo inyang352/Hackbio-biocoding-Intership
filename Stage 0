@@ -1,7 +1,7 @@
 # My information
 my_info = {
     "Names": "Inyang Olumide Kayode",
-    "Slack Username": "@inyang_olumide",
+    "Slack Username": "@Olumide",
     "Email": "inyangolumide78@gmail.com",
     "Hobby": "Playing the guitar",
     "Country": "Nigeria",
@@ -10,7 +10,7 @@ my_info = {
 }
 # print My information
 print(f"""
-My Information:
+My Information
 Names: {my_info["Names"]}
 Slack Username: {my_info["Slack Username"]}
 Email: {my_info["Email"]}
