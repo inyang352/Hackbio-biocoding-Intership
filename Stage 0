@@ -1,1 +1,18 @@
-my_profile = {
+my_info = {
+    "Names": "Inyang Olumide Kayode",
+    "Slack Username": "@inyang_olumide",
+    "Email": "inyangolumide78@gmail.com",
+    "Hobby": "Playing the guitar",
+    "Country": "Nigeria",
+    "Discipline": "Cancer Biology and Drug Discovery",
+    "Preferred Programming Language": "Python"
+}
+
+print("User Information:")
+print("Names:", my_info["Names"])
+print("Slack Username:", my_info["Slack Username"])
+print("Email:", my_info["Email"])
+print("Hobby:", my_info["Hobby"])
+print("Country:", (my_info["Country"]))
+print("Discipline:", my_info["Discipline"])
+print("Preferred Programming Language:", my_info["Preferred Programming Language"])
