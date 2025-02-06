@@ -9,11 +9,13 @@ my_info = {
     "Preferred Programming Language": "Python"
 }
 # print My information
-print("My Information:")
-print("Names:", my_info["Names"])
-print("Slack Username:", my_info["Slack Username"])
-print("Email:", my_info["Email"])
-print("Hobby:", my_info["Hobby"])
-print("Country:", (my_info["Country"]))
-print("Discipline:", my_info["Discipline"])
-print("Preferred Programming Language:", my_info["Preferred Programming Language"])
+print(f"""
+My Information:
+Names: {my_info["Names"]}
+Slack Username: {my_info["Slack Username"]}
+Email: {my_info["Email"]}
+Hobby: {my_info["Hobby"]}
+Country: {my_info["Country"]}
+Discipline: {my_info["Discipline"]}
+Preferred Programming Language: {my_info["Preferred Programming Language"]}
+""")
