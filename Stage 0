@@ -8,7 +8,7 @@ my_info = {
     "Discipline": "Cancer Biology and Drug Discovery",
     "Preferred Programming Language": "Python"
 }
-
+# print My information
 print("My Information:")
 print("Names:", my_info["Names"])
 print("Slack Username:", my_info["Slack Username"])
